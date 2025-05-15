@@ -34,7 +34,7 @@ const App = () => {
     <div className="bg-gray-100 min-h-screen">
       <nav className="bg-white shadow flex justify-between items-center px-6 py-4 sticky top-0 z-10">
         <div className="text-xl font-semibold text-gray-800">
-          {loading ? "Loading..." : "🚀 SpaceX Capsules"}
+          {loading ? "Loading..." : "SpaceX Capsules"}
         </div>
         <input
           type="text"
